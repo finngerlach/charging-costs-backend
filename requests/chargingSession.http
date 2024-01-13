@@ -1,0 +1,14 @@
+POST localhost:8080/chargingSession
+Content-Type: application/json
+
+{
+  "startTime": "2024-01-06T17:25:34.117Z",
+  "endTime": "2024-01-06T17:26:34.117Z",
+  "energyAdded": 23.42,
+  "comment": "Test comment"
+}
+
+###
+
+GET localhost:8080/chargingSession
+Accept: application/json
